@@ -5,7 +5,6 @@
 
     /* ===============toggle-menu functionality ===========*/
 
-
     label {
         cursor: pointer;
       }
@@ -38,11 +37,10 @@
         color: rgb(246, 242, 242);
         text-align: center;
         font-size: 30px;
-        font-family: 'Fredoka One', cursive;
+        letter-spacing: 20px;
       }
 
     /* =============== end toggle-menu functionality ===========*/
-
       
     .container-body{
         background-image: url("../../img/backgrounds/background_3.jpg");
@@ -61,7 +59,6 @@
         position: sticky;
         top: 0px;
         color: grey;
-        
     }
 
     .site-header{
