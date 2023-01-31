@@ -33,6 +33,7 @@
         flex-grow: 1;
       }
 
+
       li.list-item{
         color: rgb(246, 242, 242);
         text-align: center;
@@ -40,10 +41,15 @@
         letter-spacing: 20px;
       }
 
+      a:hover{
+        text-decoration-line: line-through;
+        text-decoration-style: wavy;
+      }
+
     /* =============== end toggle-menu functionality ===========*/
       
     .container-body{
-        background-image: url("../../img/backgrounds/background_3.jpg");
+
         display: flex;
         height: 100%;
         font-family: 'Fredoka One', cursive;
@@ -54,11 +60,12 @@
         display: flex;
         flex-direction: row-reverse;
         justify-content: space-between;
-        font-family: 'Fredoka One', cursive;
         letter-spacing: 10px;
         position: sticky;
         top: 0px;
-        color: grey;
+        color: black;
+        background-color:  rgb(254, 253, 255);
+        /* background: linear-gradient(180deg, rgba(0,0,0,1) 9%, rgba(123,47,255,0.2805322812718838) 92%);  */
     }
 
     .site-header{

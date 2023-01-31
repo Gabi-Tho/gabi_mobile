@@ -1,0 +1,13 @@
+/*=============== container for mobile =====================*/
+
+@media screen and (max-width: 800px){
+    
+    .container-hero img{
+        width: 100vw;
+        height: 100vh;
+        object-fit: cover;
+    }
+
+
+
+}
