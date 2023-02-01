@@ -1,0 +1,18 @@
+@media screen and (max-width: 800px){
+
+    .container-gallery-body{
+        display: flex;
+        max-width: 100vw;
+    }
+
+    .container-gallery-section{
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+    }
+
+
+
+
+
+}
