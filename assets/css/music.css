@@ -1,0 +1,33 @@
+@media screen and (max-width: 800px){
+
+    .music-background{
+        background-color: rgb(205, 205, 205);
+    }
+
+    .container-music{
+        display: flex;
+        flex-direction: column;
+        /* background: rgb(237, 220, 223); */
+        margin-right: 5%;
+        margin-left: 5%;
+        margin-top: 10%;
+    }
+
+    .container-music-text>h3{
+        /* background-color: orange; */
+        padding: 10px;
+    }
+
+    .container-music-text>ul{
+        /* background-color: rgb(253, 55, 55); */
+        padding: 10px;
+    }
+
+    .music-title{
+
+        padding: 10px;
+    }
+
+    
+    
+}

@@ -1,21 +1,24 @@
 @media screen and (max-width: 800px){
 
+
+
+    .video-background{
+        background-color: rgba(57, 170, 123, 0.511);
+    }
+
+    .video-body{
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
     .video-container{
         display: flex;
-        padding-top:  10%;
-        padding: 10px;
+        /* padding-top:  5%;
+        padding-bottom:  5%; */
         flex-direction: column;
-        /* background-color: rgb(255, 204, 84); */
-    }
-
-    .video-container img{
-        object-fit: cover;
+        position: relative;
         width: 100%;
-    }
-
-    a.video-title{
-        color: black;
-
+        height: 100%;
     }
 
     .video-header{
@@ -23,9 +26,12 @@
         justify-content: space-around;
         padding-top: 5%;
         padding-bottom: 5%;
-        /* background-color: rgba(222, 139, 139, 0.446); */
+        letter-spacing: 20px;
+        background-color: rgba(250, 235, 215, 0.429);
+        margin-bottom: 20px;
     }
 
+    /* =========== text-alignment ============*/
     .centered {
         position: static;
         transform: translate(10%, -110%);
@@ -37,8 +43,31 @@
 
     .centered a:visited{
         color: white;
-        
+    }
 
+
+    /*================ images =================*/
+
+    .video-frame{
+        position: absolute;
+        z-index: 2;    /* Place this image in front of the img1 */
+        width: 100%;
+        height: 100%;
+        top: 0;
+    }
+
+    .video-break{
+        display: flex;
+        justify-content: center;
+        padding: 10%;
+        /* background-color: yellowgreen; */
+    }
+
+    .video-break img{
+        object-fit: contain;
+        width: 50%;
+        /* align-content: center;
+        justify-content: center; */
     }
     
 
