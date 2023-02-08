@@ -1,0 +1,45 @@
+@media screen and (max-width: 800px){
+
+    .video-container{
+        display: flex;
+        padding-top:  10%;
+        padding: 10px;
+        flex-direction: column;
+        /* background-color: rgb(255, 204, 84); */
+    }
+
+    .video-container img{
+        object-fit: cover;
+        width: 100%;
+    }
+
+    a.video-title{
+        color: black;
+
+    }
+
+    .video-header{
+        display: flex;
+        justify-content: space-around;
+        padding-top: 5%;
+        padding-bottom: 5%;
+        /* background-color: rgba(222, 139, 139, 0.446); */
+    }
+
+    .centered {
+        position: static;
+        transform: translate(10%, -110%);
+    }
+
+    .centered a{
+        letter-spacing: 10px;
+    }
+
+    .centered a:visited{
+        color: white;
+        
+
+    }
+    
+
+}

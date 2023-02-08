@@ -4,7 +4,8 @@
 @import "./navigation.css";
 @import "./container.css";
 @import "./gallery.css";
-
+@import "./video.css";
+@import "./container.css";
 
 /*=============================== END IMPORTS =============================*/
 
@@ -99,7 +100,7 @@ a:link {
 }
 
 a:visited {
-    color: white;
+    color: black;
 }
 
 ul{
