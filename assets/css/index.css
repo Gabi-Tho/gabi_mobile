@@ -5,7 +5,12 @@
     position: absolute;
     height:80vh;
     /* background-color: rgba(8, 235, 167, 0.613); */
-    background-color: rgb(145, 206, 232);
+    /* background-color: rgb(5, 30, 40); */
+    background-color:  rgb(35, 122, 84);
+}
+
+.nav-index{
+  background-color:  rgb(254, 251, 255);
 }
 
 

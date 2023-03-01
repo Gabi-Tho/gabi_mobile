@@ -24,6 +24,13 @@
   object-fit: contain;
 }
 
+.letter-img>img{
+  width: 80px;
+  height: 80px;
+  object-fit: fill;
+
+}
+
 #menu {
 
   display: flex;
@@ -239,7 +246,7 @@ li.list-item{
         letter-spacing: 10px;
         position: relative;
         top: 0px;
-        background-color: rgba(255, 255, 255, 0.787);
+
     }
 
     .site-header>img{
@@ -251,8 +258,6 @@ li.list-item{
     }
 
     .site-header{
-      padding: 10px;
-      font-size: 20px;
       background-color: rgba(255, 255, 255, 0);
     }
 
@@ -279,6 +284,23 @@ li.list-item{
     display: flex;
     justify-content: center;
 
+  }
+
+  .site-header>img{
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+  }
+  
+  .letter-img>img{
+    width: 60px;
+    height: 40px;
+    object-fit: fill;
+  
+  }
+
+  .gabi{
+    display:none;
   }
 
 
