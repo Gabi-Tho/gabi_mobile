@@ -1,3 +1,104 @@
+
+
+    .music-background{
+        background-color: rgb(205, 205, 205);
+    }
+    
+    .container-music{
+        display: flex;
+        flex-direction: row;
+        margin-right: 1%;
+        margin-left: 1%;
+        margin-top: 1%;
+    }
+    
+    .container-music-text>h3{
+        /* background-color: orange; */
+        padding: 20px;
+        padding-bottom: 5px;
+    }
+    
+    .container-music-text>ul{
+
+        padding: 20px;
+        letter-spacing: 5px;
+        line-height: 20px;
+        padding-left: 20px;
+    }
+    
+    
+    .music-title{
+        padding: 5px;
+    }
+    
+    .container-music>img{
+        height: 300px;
+        width: 300px;
+        margin-top: 10px;
+    }
+
+    .container-music-text{
+        width: 40rem;
+    }
+
+
+
+
+
+
+@media screen and (max-width: 900px){
+
+    .music-background{
+        background-color: rgb(205, 205, 205);
+    }
+    
+    .container-music{
+        display: flex;
+        flex-direction: column;
+        margin-right: 5%;
+        margin-left: 5%;
+        margin-top: 10%;
+    }
+    
+    .container-music-text>h3{
+
+        padding: 10px;
+    }
+    
+    .container-music-text>ul{
+        background-color: rgb(205, 205, 205);
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+
+        padding: 10px;
+        letter-spacing: 5px;
+        line-height: 30px;
+
+
+        }
+
+    .container-music-text>li{
+
+        overflow-wrap: break-word;
+    }
+    
+    
+    .music-title{
+        padding: 10px;
+    }
+
+    .container-music>img{
+        height: auto;
+        width: auto;
+    }
+
+} 
+
+
+
+
 @media screen and (max-width: 800px){
 
     .music-background{
@@ -7,31 +108,37 @@
     .container-music{
         display: flex;
         flex-direction: column;
-        /* background: rgb(237, 220, 223); */
         margin-right: 5%;
         margin-left: 5%;
         margin-top: 10%;
     }
 
     .container-music-text>h3{
-        /* background-color: orange; */
         padding: 10px;
     }
 
     .container-music-text>ul{
-        /* background-color: rgb(253, 55, 55); */
         padding: 10px;
         letter-spacing: 5px;
         line-height: 30px;
     }
 
     .music-title{
-
         padding: 10px;
     }
 
-    /* think about pizzaz
-    font spacing */
+    .container-music>img{
+        padding: 0px;
+    }
+    
+    .container-music-text>li{
+        overflow-wrap: break-word;
+        max-width: 800px;
+    }
+
+    .container-music-text{
+        width: auto;
+    }
     
     
 }
