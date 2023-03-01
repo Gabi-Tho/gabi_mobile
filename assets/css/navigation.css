@@ -1,7 +1,62 @@
+.spacer{
+    color:rgba(201, 139, 222, 0);
+}
+
+.site-header{
+  background-color:  rgba(201, 139, 222, 0);
+  padding-right: 10px;
+}
+
+.container-header{
+  background-color:  rgba(201, 139, 222, 0.434);
+  display: flex;
+  justify-content: space-between;
+}
+
+#menu {
+
+  display: flex;
+  background-color: rgba(201, 139, 222, 0.434);
+  justify-content: space-around;
+}
+
+.list-icon{
+  color: rgb(246, 242, 242);
+  text-align: center;
+  font-size: 30px;
+  letter-spacing: 20px;
+  display: flex;
+}
+
+#menu-toggle {
+  display: none;
+}
+
+div.container-icon-menu{
+  visibility: hidden;
+}
+
+.list-icon > .test:hover{
+  transform: rotate(10deg);
+}
+
+a:hover{
+  text-decoration-line: line-through;
+  text-decoration-style: wavy;
+}
+
+li.list-item{
+  text-transform: uppercase;
+  display: flex;
+  place-items: center;
+}
+
+
+
 
 /*================================== MOBILE VIEW ===================================*/
 
-@media screen and (max-width: 800px){
+@media screen and (max-width: 900px){
 
     /* ===============toggle-menu functionality ===========*/
 
@@ -15,7 +70,7 @@
 
       #menu {
         overflow: hidden;
-        height: 100vh;
+        height: 80vh;
         max-height: 0;
         padding: 0;
         margin: 0 auto;
@@ -30,23 +85,37 @@
 
       #menu li {
         /* background-color: rgba(160, 156, 154, 0.76); */
-        background-color: rgba(201, 139, 222, 0.446);
-        padding: 10px;
-        flex-grow: 1;
+        background-color: rgba(201, 139, 222, 0.434);
+        padding-top: 10px;
+        height: 100%;
+
       }
 
 
       li.list-item{
         color: rgb(246, 242, 242);
         text-align: center;
-        font-size: 30px;
-        letter-spacing: 20px;
+        font-size: 20px;
+        font-weight: bold;
+        letter-spacing: 30px;
+
+      }
+
+      .list-item>a{
+        font-size: 20px;
       }
 
       a:hover{
         text-decoration-line: line-through;
         text-decoration-style: wavy;
+
       }
+
+
+      div.container-icon-menu{
+        visibility: visible;
+      }
+      
 
     /* =============== end toggle-menu functionality ===========*/
       
@@ -65,11 +134,13 @@
         letter-spacing: 10px;
         position: relative;
         top: 0px;
-        /* background-color: green; */
+        background-color: rgba(255, 255, 255, 0.787);
     }
 
     .site-header{
       padding: 10px;
+      font-size: 20px;
+      background-color: rgba(255, 255, 255, 0);
     }
 
     .list-icon{
@@ -89,6 +160,14 @@
     .list-icon > .test:hover{
       transform: rotate(10deg);
     }
+
+  .list-item{
+
+    display: flex;
+    justify-content: center;
+
+  }
+
 
 
     

@@ -3,27 +3,15 @@
 
 
     .section-formulaire{
-        display: flex;
-        margin: 20px;
-        padding-left: 15%;
-        padding-right: 15%;
-        background:  rgba(201, 139, 222, 0.446);
-        height: 80vh;
-
+        padding: 5px;
     }
     
     .section-formulaire p{
         text-align: center;
         padding-bottom: 5%;
-        padding-top: 5%;
-        margin-top: 15%;
-        color: rgb(112, 112, 112);
+        color: rgb(0, 0, 0);
     }
     
-    
-    .section-formulaire form{
-    
-    }
     
     .section-formulaire input[type=submit] {
 
@@ -52,26 +40,25 @@
         border:none; /* Get rid of the browser's styling */
         border-bottom:5px dotted  rgb(201, 139, 222); /* Add your own border */
         font-size: medium;
-        width: 100%;
+        text-align: center;
+        letter-spacing: 5px;
+        border-radius: 20px;
+
     }
     
     .btn-formulaire-container{
-
         display: flex;
         align-items: center;
         justify-content: center;
         padding-bottom: 10px;
-
-
     }
 
 
     svg.icon-env{
-        
-        background-color: orange;
+        background-color:  rgba(255, 166, 0, 0.901);
         border-radius: 50%;
         padding: 20px;
-
+        margin-bottom: 10%;
     }
     
     .icon-formulaire{
@@ -82,8 +69,17 @@
         justify-content: center;
     }
 
+    form{
+        background-color: rgba(255, 166, 0, 0.901);
+        max-width: 100%;
+        padding: 10px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
 
-    .box {
+
+    /* .box {
         --mask:
           radial-gradient(25.00px at 25.00px 50%,#000 99%,#0000 101%) 0 calc(50% - 50px)/51% 100px repeat-y,
           radial-gradient(25.00px at 0px 50%,#0000 99%,#000 101%) 25px 50%/calc(51% - 25px) 100px repeat-y,
@@ -91,7 +87,13 @@
           radial-gradient(25.00px at calc(100% + 0.00px) 50%,#0000 99%,#000 101%) calc(100% - 25px) 50%/calc(51% - 25px) 100px repeat-y;
         -webkit-mask: var(--mask);
                 mask: var(--mask);
-      }
+      } */
+
+      .contact-background{
+
+        background-image: url('../img/backgrounds/background_squiggles.png'); 
+        /* background-image: url('../img/backgrounds/background_squiggles2.jpg');     */
+    }
 
 }
 

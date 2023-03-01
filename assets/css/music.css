@@ -21,6 +21,8 @@
     .container-music-text>ul{
         /* background-color: rgb(253, 55, 55); */
         padding: 10px;
+        letter-spacing: 5px;
+        line-height: 30px;
     }
 
     .music-title{

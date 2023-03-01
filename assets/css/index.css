@@ -1,0 +1,40 @@
+
+.video-index>video{
+    width: 100%;
+}
+
+
+/*================================== MOBILE VIEW ===================================*/
+
+@media screen and (max-width: 800px){
+
+    .video-index{
+        background-color: red;
+    }
+    
+    .video-index>video{
+        width: 100vw;
+        height: 800px;
+        object-fit: cover;
+    }
+
+}
+
+
+
+/*================================== wtf ===================================*/
+
+@media screen and (max-width: 600px){
+
+    .video-index{
+
+        background-color: rgb(0, 255, 13);
+
+    }
+    
+    .video-index>video{
+        width: 100vw;
+        object-fit: cover; 
+    }
+
+}

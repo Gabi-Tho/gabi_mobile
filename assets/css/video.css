@@ -1,65 +1,36 @@
 @media screen and (max-width: 800px){
 
 
+    .video-container{
+        margin-left: 10%;
+        margin-right: 10%;
+        display: flex;
 
-    .video-background{
-        background-color: rgba(57, 170, 123, 0.511);
+        /* background-color: rgb(43, 255, 0); */
+        justify-content: center;
+        margin-top: 30%;
+    }
+
+    .video-container>img{
+        width: 100%;
+        height: 100%;
+        object-fit: scale-down;
+
     }
 
     .video-body{
-        margin-left: 10%;
-        margin-right: 10%;
-    }
-
-    .video-container{
-        display: flex;
-        /* padding-top:  5%;
-        padding-bottom:  5%; */
-        flex-direction: column;
-        position: relative;
-        width: 100%;
-        height: 100%;
-    }
-
-    .video-header{
-        display: flex;
-        justify-content: space-around;
-        padding-top: 5%;
-        padding-bottom: 5%;
-        letter-spacing: 20px;
-        background-color: rgba(250, 235, 215, 0.429);
-        margin-bottom: 20px;
-    }
-
-    /* =========== text-alignment ============*/
-    .centered {
-        position: static;
-        transform: translate(10%, -110%);
-    }
-
-    .centered a{
-        letter-spacing: 10px;
-    }
-
-    .centered a:visited{
-        color: white;
+        background-image: url('../img/backgrounds/cirqueH_small.png'); 
     }
 
 
     /*================ images =================*/
 
-    .video-frame{
-        position: absolute;
-        z-index: 2;    /* Place this image in front of the img1 */
-        width: 100%;
-        height: 100%;
-        top: 0;
-    }
 
     .video-break{
         display: flex;
         justify-content: center;
         padding: 10%;
+        margin-top: 25%;
         /* background-color: yellowgreen; */
     }
 
@@ -72,5 +43,10 @@
     
 
     /* ask marc-andre about drag and dropping vhs/interactive css */
+
+    .video-background{
+
+        background-image: url('../img/backgrounds/background_5.jpg');    
+    }
 
 }
