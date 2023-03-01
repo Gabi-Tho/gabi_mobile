@@ -1,26 +1,17 @@
-.spacer{
-    color:rgba(201, 139, 222, 0);
-}
 
 .site-header{
-  background-color:  rgba(201, 139, 222, 0);
+  /* background-color:  rgba(201, 139, 222, 0); */
   display: flex;
   justify-content: center;
   width: 100vw;
   margin-bottom: 20px;
 }
 
-.site-header>a{
+.gabi{
   visibility:collapse;
 }
 
-/* .site-header{
-  background-color:  rgba(201, 139, 222, 0);
-  padding-right: 10px;
-  display: flex;
-  justify-content: space-evenly;
-  width: 100vw;
-} */
+
 
 .container-header{
   background-color:  rgba(201, 139, 222, 0.434);
@@ -28,8 +19,8 @@
 }
 
 .site-header>img{
-  width: 100px;
-  height: 100px;
+  width: 80px;
+  height: 80px;
   object-fit: contain;
 }
 
@@ -79,12 +70,92 @@ li.list-item{
   place-items: center;
 }
 
+/*========================= GABI WORLD FONT ==========================*/
+.spacer{
+  width: 60px;
+  color:rgba(0, 0, 0, 0)
+}
 
+.G{
+  transform: rotate(10deg);
+  transition: width 2s, height 2s, background-color 2s, transform 2s;
+}
+.A{
+  transform: rotate(-10deg);
+  transition: width 2s, height 2s, background-color 2s, transform 2s;
+}
+.B{
+  transform: rotate(10deg);
+  transition: width 2s, height 2s, background-color 2s, transform 2s;
+}
+.I{
+  transform: rotate(-10deg);
+  transition: width 2s, height 2s, background-color 2s, transform 2s;
+}
+
+.W{
+  transform: rotate(-10deg);
+  transition: width 2s, height 2s, background-color 2s, transform 2s;
+}
+.O{
+  transform: rotate(10deg);
+  transition: width 2s, height 2s, background-color 2s, transform 2s;
+}
+.R{
+  transform: rotate(-10deg);
+  transition: width 2s, height 2s, background-color 2s, transform 2s;
+}
+.L{
+  transform: rotate(10deg);
+  transition: width 2s, height 2s, background-color 2s, transform 2s;
+}
+.D{
+  transform: rotate(-10deg);
+  transition: width 2s, height 2s, background-color 2s, transform 5s;
+}
+
+/*======================= hover ====================*/
+
+.G:hover{
+  transform: rotate(-20deg);
+}
+.A:hover{
+  transform: rotate(-40deg);
+}
+.B:hover{
+  transform: rotate(-20deg);
+}
+.I:hover{
+  transform: rotate(40deg);
+}
+
+.W:hover{
+  transform: rotate(30deg);
+}
+.O:hover{
+  transform: rotate(-30deg);
+}
+.R:hover{
+  transform: rotate(20deg);
+}
+.L:hover{
+  transform: rotate(-40deg);
+}
+.D:hover{
+  transform: rotate(30deg);
+}
+
+
+/*========================= GABI WORLD FONT END ==========================*/
 
 
 /*================================== MOBILE VIEW ===================================*/
 
 @media screen and (max-width: 900px){
+
+  .site-header>a{
+    visibility:visible;
+  }
 
     /* ===============toggle-menu functionality ===========*/
 
