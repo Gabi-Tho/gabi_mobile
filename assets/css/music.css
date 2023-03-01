@@ -7,9 +7,9 @@
     .container-music{
         display: flex;
         flex-direction: row;
-        margin-right: 1%;
-        margin-left: 1%;
         margin-top: 1%;
+        margin-right: 10%;
+        margin-left: 10%;
     }
     
     .container-music-text>h3{
@@ -29,6 +29,8 @@
     
     .music-title{
         padding: 5px;
+        margin-right: 10%;
+        margin-left: 10%;
     }
     
     .container-music>img{
@@ -46,7 +48,7 @@
 
 
 
-@media screen and (max-width: 900px){
+@media screen and (max-width: 1200px){
 
     .music-background{
         background-color: rgb(205, 205, 205);
