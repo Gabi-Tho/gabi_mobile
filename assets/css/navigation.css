@@ -302,9 +302,9 @@ li.list-item{
   }
 
   .site-header>img{
-    width: 40px;
-    height: 40px;
-    object-fit: contain;
+    width: 30px;
+    height: 30px;
+    object-fit: fit;
   }
 
   .spacer{
@@ -312,7 +312,7 @@ li.list-item{
   }
   
   .letter-img>img{
-    width: 30px;
+    width: 25px;
     height: 40px;
     object-fit: fill;
   
