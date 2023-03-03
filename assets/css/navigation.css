@@ -34,10 +34,12 @@
 #menu {
 
   display: flex;
-  background-color: rgba(201, 139, 222, 0.434);
+  background-color: rgba(201, 139, 222, 0.786);
   justify-content: space-around;
   padding-right: 5%;
   padding-left: 5%;
+
+  width: 100%;
 
 }
 
@@ -160,6 +162,7 @@ li.list-item{
 
 @media screen and (max-width: 900px){
 
+
   .site-header>a{
     visibility:visible;
   }
@@ -184,6 +187,7 @@ li.list-item{
         display: flex;
         flex-direction:column;
         z-index: 1;
+        position: absolute;
       }
 
       ul#menu{
@@ -291,9 +295,13 @@ li.list-item{
     height: 40px;
     object-fit: contain;
   }
+
+  .spacer{
+    width: 20px;
+  }
   
   .letter-img>img{
-    width: 60px;
+    width: 30px;
     height: 40px;
     object-fit: fill;
   
