@@ -4,10 +4,12 @@
 
 
 .section-formulaire{
-    padding: 5px;
-    margin-left: 20%;
-    margin-right: 20%;
+    padding: 15px;
+    margin-left: 30%;
+    margin-right: 30%;
 }
+
+
 
 .section-formulaire p{
     text-align: center;
@@ -48,6 +50,8 @@
     text-align: center;
     letter-spacing: 5px;
     border-radius: 20px;
+    width: 80%;
+    align-self: center;
 
 }
 
@@ -77,10 +81,11 @@ svg.icon-env{
 form{
     background-color: rgba(255, 166, 0, 0.901);
     max-width: 100%;
-    padding: 40px;
+    padding: 60px;
     display: flex;
     justify-content: center;
     flex-direction: column;
+    border-radius: 10px;
 }
 
 
@@ -103,13 +108,15 @@ form{
 
 
 
-
 @media screen and (max-width: 800px){
 
 
 
     .section-formulaire{
         padding: 5px;
+        margin-left: 5%;
+        margin-right: 5%;
+        border-radius: 10px;
     }
     
     .section-formulaire p{
