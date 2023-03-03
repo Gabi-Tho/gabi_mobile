@@ -44,7 +44,7 @@
 
 .video-background{
 
-    background-image: url('../img/backgrounds/background_5.jpg');    
+    background-image: url('../img/backgrounds/background_5_optimiser.png');    
 }
 
 
@@ -104,7 +104,8 @@
 
     .video-background{
 
-        background-image: url('../img/backgrounds/background_5.jpg');    
+        background-image: url('../img/backgrounds/background_5_optimiser.png');    
     }
+    
 
 }

@@ -9,6 +9,7 @@
         margin-left: 10%;
         display: flex;
         flex-wrap: wrap;
+        margin-bottom: 30px;
     }
     
     .container-music-text>h3{
@@ -44,6 +45,7 @@
     .section-music>img{
         height: 100%;
         width: 100%;
+        object-fit: cover;
     }
 
     .container-music-text{
@@ -55,18 +57,6 @@
 
 @media screen and (max-width: 1300px){
 
-    .music-background{
-        /* background-color: rgb(230, 168, 87); */
-    }
-
-    
-    .container-music{
-        margin-top: 1%;
-        margin-right: 10%;
-        margin-left: 10%;
-        display: flex;
-        flex-wrap: wrap;
-    }
     
     .container-music-text>h3{
         padding: 20px;
@@ -75,10 +65,7 @@
     }
     
     .container-music-text>ul{
-        padding: 20px;
-        letter-spacing: 5px;
         line-height: 25px;
-        flex-grow: 1;
     }
 
     .container-music-text .released{
@@ -93,22 +80,10 @@
         margin-bottom: 10px;
         margin-top: 10px;
     }
-    
-    .music-title{
-        padding: 5px;
-        margin-right: 10%;
-        margin-left: 10%;
-    }
+
     
     .container-music>img{
-        height: 300px;
-        width: 300px;
         margin-top: 10px;
-    }
-
-    .section-music>img{
-        height: 100%;
-        width: 100%;
     }
 
     .container-music-text{
@@ -123,17 +98,6 @@
 
 @media screen and (max-width: 900px){
 
-    .music-background{
-        /* background-color: rgb(230, 168, 87); */
-    }
-    
-    .container-music{
-        margin-top: 1%;
-        margin-right: 10%;
-        margin-left: 10%;
-        display: flex;
-        flex-wrap: wrap;
-    }
     
     .container-music-text>h3{
         padding: 0px;
@@ -144,7 +108,6 @@
         letter-spacing: 5px;
         line-height: 20px;
         padding: 0px;
-
     }
 
     .container-music-text .released{
@@ -157,23 +120,6 @@
         flex-direction: column;
         width: 100%;
         margin-top: 15px;
-    }
-    
-    .music-title{
-        padding: 5px;
-        margin-right: 10%;
-        margin-left: 10%;
-    }
-    
-    .container-music>img{
-        height: 300px;
-        width: 300px;
-        margin-top: 10px;
-    }
-
-    .section-music>img{
-        height: 100%;
-        width: 100%;
     }
 
     .container-music-text{
