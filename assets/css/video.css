@@ -5,13 +5,13 @@
     max-height: fit-content;
     /* background-color: rgb(43, 255, 0); */
     justify-content: center;
+    margin-top: 2%;
 }
 
 .video-container>img{
-    width: 70%;
-    height: 70%;
+    width: 60%;
+    height: 60%;
     object-fit: scale-down;
-
 }
 
 .video-title{
@@ -44,14 +44,16 @@
 
 .video-background{
 
-    background-image: url('../img/backgrounds/background_5_optimiser.png');    
+    background-image: url('../img/backgrounds/background_5_optimiser.jpg');    
 }
 
+@media screen and (max-width: 1000px){
 
+    .video-container{
+        margin-top: 20%;
+    }
 
-
-
-
+}
 
 
 @media screen and (max-width: 800px){
@@ -104,8 +106,8 @@
 
     .video-background{
 
-        background-image: url('../img/backgrounds/background_5_optimiser.png');    
+        background-image: url('../img/backgrounds/background_5_optimiser.jpg');    
     }
-    
+
 
 }

@@ -15,27 +15,22 @@
     }
 
     .container-gallery-title{
-        padding-bottom: 10%;
-        padding-top: 5%;
+        padding-bottom: 2%;
+        padding-top: 2%;
     }
 
     .container-gallery-title>h4{
         padding: 10px;
     }
 
-    .container-body{
-
-    }
-
-    /* check first gallery make it like the other??? */
-
-
-
-
-
 
 
 @media screen and (max-width: 800px){
+
+    .container-gallery-title{
+        padding-bottom: 10%;
+        padding-top: 5%;
+    }
 
     .container-gallery-body{
         display: flex;
